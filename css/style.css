@@ -1,0 +1,88 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2, h4{
+  text-align: center;
+}
+h2{
+  position: relative;
+  top: -200px;
+}
+body{
+  background-color: brown;
+  height: 100vh;
+  width: 100vw;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 11px;
+  row-gap: 0px;
+  width: 280px;
+  height: 280px;
+  border: none;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+  position: relative;
+  top: 160px;
+  left: -70px;
+  color:white;
+}
+img{
+  text-align: center;
+  width: 100px;
+  height: 90px;
+  border: 1px solid black;
+  display: block;
+  margin: 0 auto;
+}
+#calc{
+  height: 650px;
+  width: 650px;
+  z-index: -4;
+  position: relative;
+  top: -350px;
+}
+#eightnuggets{
+  background-color: aliceblue;
+}
+#cover{
+  height: 80px;
+  width: 50px;
+  position: relative;
+  top: 200;
+  background-color: rgb(209	221	207)	;
+  position: relative;
+  top: -950px;
+  left: 914px;
+  z-index: -1;
+}
+#black{
+  background-color: rgb(81	81	81)	;
+  height: 400px;
+  width: 545px;
+  position: relative;
+  right: -448px;
+  top: -899px;
+  z-index: -3;
+}
+#lgfry{
+  background-color: white;
+}
+#mac{
+  background-color: white;
+}
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
